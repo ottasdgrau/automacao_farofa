@@ -26,8 +26,14 @@ subtracao = a-b
 divisao = a/b
 multiplicacao = a*b
 
-if operação == 1
+if operação == 1:
     print ('O resultado da soma desses valores é de', soma)
 
-elif operação == 2
+elif operação == 2:
     print ('O resultado da subtração desses valores é de', subtracao)
+
+elif operação == 3:
+    print ('O resultado da divisão desses valores é de', divisao)
+
+elif operação == 4:
+    print ('O resultado da multiplicação desses valores é de', multiplicacao)
