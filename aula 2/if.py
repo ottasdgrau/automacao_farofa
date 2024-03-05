@@ -8,7 +8,7 @@ elif idade < 18:
     print('Você é um adolescente')
 elif idade < 65:
     print('Você é um adulto')
-else
+else:
     print('Você é um idoso')
 
     idade = int(idade) + 1
